@@ -3,6 +3,7 @@
 {% block content %}
 <div class="container mt-4">
     <form action="{% url 'website:add_record' %}" method="post">
+        <h2>Add record</h2>
         {% csrf_token %}
         <div class="mb-3">
             <label for="id_typ" class="form-label">Typ</label>
