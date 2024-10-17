@@ -1,0 +1,82 @@
+{% extends "website/base.html" %}
+
+{% block content %}
+<div class="container" class="dropdown mb-1">
+    <button class="btn btn-secondary dropdown-toggle btn-dark" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Filtry
+    </button>
+    <form action="{% if request.GET.q %}{% url "website:search"%}{% else %}{% url "website:index" %}{% endif %}" method="get" class="dropdown-menu bg-dark" data-bs-theme="dark">
+        <input type="hidden" name="q" value="{{ request.GET.q }}">
+        
+        <div class="form-check text-white mx-3">
+            <input class="form-check-input" type="radio" name="order_by" id="flexRadioDefault1" value="masa_down" 
+            {% if request.GET.order_by == 'masa_down' %}checked{% endif %}>
+            <label class="form-check-label" for="flexRadioDefault1">
+                Masa ↓
+            </label>
+        </div>
+
+        <div class="form-check text-white mx-3">
+            <input class="form-check-input" type="radio" name="order_by" id="flexRadioDefault2" value="masa_up" 
+            {% if request.GET.order_by == 'masa_up' %}checked{% endif %}>
+            <label class="form-check-label" for="flexRadioDefault2">
+                Masa ↑
+            </label>
+        </div>
+
+        {% if request.GET.order_by == 'masa_down' or request.GET.order_by == 'masa_up' %}
+            <div class="form-check text-white mx-3">
+                <input class="form-check-input" type="radio" name="order_by" id="flexRadioDefault2" value="by_id" 
+                {% if request.GET.order_by == 'by_id' %}checked{% endif %}>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    By Id
+                </label>
+            </div>
+        {% endif %}>
+
+        <button type="submit" class="btn btn-primary mx-3 mt-3">Akceptuj</button>
+    </form>
+    <a href="{% url 'website:add_record' %}" class="btn btn-primary">Add record</a>
+</div>
+
+
+    <!-- Kontener do centrowania tabeli --> 
+    <div class="container mt-4">
+        <table class="table table-dark table-striped mx-auto" style="width: 80%;">
+            <thead>
+                <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Typ</th>
+                <th scope="col">Masa</th>
+                <th scope="col">Czystosc</th>
+                <th scope="col">Barwa</th>
+                <th scope="col">Pochodzenie</th>
+                <th scope="col">Własciciel</th>
+                <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in items %}
+                    <tr>
+                    <th scope="row">
+                        <a href="{% url "website:single_index" item.id %} ">
+                        {{item.id}}
+                    </th>
+                    <td>{{item.typ}}</td>
+                    <td>{{ item.masa}}</td>
+                    <td>{{item.czystosc}}</td>
+                    <td>{{item.barwa}}</td>
+                    <td>{{item.pochodzenie}}</td>
+                    <td>{{item.wlasciciel}}</td>
+                    <td>
+                        <a href="{% url 'website:delete_record' item.id %}" 
+                           class="btn btn-danger" 
+                           onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+                    </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            </table>
+    </div>
+{% endblock content %}

@@ -1,0 +1,35 @@
+{% extends "website/base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <form action="{% url 'website:add_record' %}" method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="id_typ" class="form-label">Typ</label>
+            <input type="text" name="typ" class="form-control" id="id_typ">
+        </div>
+        <div class="mb-3">
+            <label for="id_masa" class="form-label">Masa</label>
+            <input type="text" name="masa" class="form-control" id="id_masa">
+        </div>
+        <div class="mb-3">
+            <label for="id_czystosc" class="form-label">Czystosc</label>
+            <input type="text" name="czystosc" class="form-control" id="id_czystosc">
+        </div>
+        <div class="mb-3">
+            <label for="id_barwa" class="form-label">Barwa</label>
+            <input type="text" name="barwa" class="form-control" id="id_barwa">
+        </div>
+        <div class="mb-3">
+            <label for="id_pochodzenie" class="form-label">Pochodzenie</label>
+            <input type="text" name="pochodzenie" class="form-control" id="id_pochodzenie">
+        </div>
+        <div class="mb-3">
+            <label for="id_wlasciciel" class="form-label">Wlasciciel</label>
+            <input type="text" name="wlasciciel" class="form-control" id="id_wlasciciel">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="{% url 'website:index' %}" class="btn btn-secondary">Back</a>
+    </form>
+</div>
+{% endblock content %}

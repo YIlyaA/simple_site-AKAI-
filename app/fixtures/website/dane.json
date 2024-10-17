@@ -1,0 +1,378 @@
+[
+    {
+      "Typ": "Diament",
+      "Masa": "0,5ct",
+      "Czystosc": "SI",
+      "Barwa": "Biała",
+      "Pochodzenie": "Afganistan",
+      "Własciciel": "Jan Kobolski"
+    },
+    {
+      "Typ": "Rubin",
+      "Masa": "1ct",
+      "Czystosc": "S",
+      "Barwa": "Różowa",
+      "Pochodzenie": "Chiny",
+      "Własciciel": "Demokratyczny Rząd Partii Ludowej Chin"
+    },
+    {
+      "Typ": "Złoto",
+      "Masa": "2,38g",
+      "Czystosc": "535",
+      "Barwa": "Złota",
+      "Pochodzenie": "Polska",
+      "Własciciel": "Parta"
+    },
+    {
+      "Typ": "Szafir",
+      "Masa": "0,8ct",
+      "Czystosc": "VS",
+      "Barwa": "Niebieska",
+      "Pochodzenie": "Indie",
+      "Własciciel": "Krzysztof Kowalski"
+    },
+    {
+      "Typ": "Diament",
+      "Masa": "1,2ct",
+      "Czystosc": "VVS",
+      "Barwa": "Przezroczysta",
+      "Pochodzenie": "Rosja",
+      "Własciciel": "Aleksandra Nowak"
+    },
+    {
+      "Typ": "Rubin",
+      "Masa": "0,7ct",
+      "Czystosc": "IF",
+      "Barwa": "Czerwona",
+      "Pochodzenie": "Birma",
+      "Własciciel": "Międzynarodowy Dom Aukcyjny"
+    },
+    {
+      "Typ": "Złoto",
+      "Masa": "1g",
+      "Czystosc": "999",
+      "Barwa": "Złota",
+      "Pochodzenie": "USA",
+      "Własciciel": "John Doe"
+    },
+    {
+      "Typ": "Szafir",
+      "Masa": "2ct",
+      "Czystosc": "S",
+      "Barwa": "Niebieska",
+      "Pochodzenie": "Sri Lanka",
+      "Własciciel": "Małgorzata Ziemniak"
+    },
+    {
+      "Typ": "Diament",
+      "Masa": "2ct",
+      "Czystosc": "SI",
+      "Barwa": "Biała",
+      "Pochodzenie": "RPA",
+      "Własciciel": "Anna Kowalska"
+    },
+    {
+      "Typ": "Rubin",
+      "Masa": "1,5ct",
+      "Czystosc": "VS",
+      "Barwa": "Fioletowa",
+      "Pochodzenie": "Tanzania",
+      "Własciciel": "Firma Jubilerska „Klejnot”"
+    },
+    {
+      "Typ": "Złoto",
+      "Masa": "5g",
+      "Czystosc": "585",
+      "Barwa": "Żółta",
+      "Pochodzenie": "Kanada",
+      "Własciciel": "Józef Zieliński"
+    },
+    {
+      "Typ": "Szafir",
+      "Masa": "1,1ct",
+      "Czystosc": "S",
+      "Barwa": "Niebieska",
+      "Pochodzenie": "Tajlandia",
+      "Własciciel": "Skarb Państwa"
+    },
+    {
+      "Typ": "Diament",
+      "Masa": "0,25ct",
+      "Czystosc": "I1",
+      "Barwa": "Biała",
+      "Pochodzenie": "Kanada",
+      "Własciciel": "Katarzyna Pawlak"
+    },
+    {
+      "Typ": "Rubin",
+      "Masa": "0,9ct",
+      "Czystosc": "VVS",
+      "Barwa": "Różowa",
+      "Pochodzenie": "Indie",
+      "Własciciel": "Krzysztof Sobota"
+    },
+    {
+      "Typ": "Złoto",
+      "Masa": "2,5g",
+      "Czystosc": "750",
+      "Barwa": "Złota",
+      "Pochodzenie": "RPA",
+      "Własciciel": "Anna Nowicka"
+    },
+    {
+      "Typ": "Szafir",
+      "Masa": "3ct",
+      "Czystosc": "IF",
+      "Barwa": "Niebieska",
+      "Pochodzenie": "Birma",
+      "Własciciel": "Międzynarodowy Instytut Gemmologiczny"
+    },
+    {
+      "Typ": "Diament",
+      "Masa": "0,3ct",
+      "Czystosc": "I2",
+      "Barwa": "Żółta",
+      "Pochodzenie": "Brazylia",
+      "Własciciel": "Pablo Rodriguez"
+    },
+    {
+      "Typ": "Rubin",
+      "Masa": "2ct",
+      "Czystosc": "SI",
+      "Barwa": "Czerwona",
+      "Pochodzenie": "Sri Lanka",
+      "Własciciel": "Magdalena Kwiatkowska"
+    },
+    {
+      "Typ": "Złoto",
+      "Masa": "10g",
+      "Czystosc": "960",
+      "Barwa": "Złota",
+      "Pochodzenie": "Rosja",
+      "Własciciel": "Vladimir Ivanowicz"
+    },
+    {
+      "Typ": "Szafir",
+      "Masa": "1,8ct",
+      "Czystosc": "VS",
+      "Barwa": "Zielona",
+      "Pochodzenie": "Afganistan",
+      "Własciciel": "Janusz Chmielewski"
+    },
+    {
+      "Typ": "Platyna",
+      "Masa": "4g",
+      "Czystosc": "999",
+      "Barwa": "Srebrna",
+      "Pochodzenie": "RPA",
+      "Własciciel": "Hanna Lewicka"
+    },
+    {
+      "Typ": "Srebro",
+      "Masa": "15g",
+      "Czystosc": "925",
+      "Barwa": "Biała",
+      "Pochodzenie": "Meksyk",
+      "Własciciel": "Robert Kowalski"
+    },
+    {
+      "Typ": "Szmaragd",
+      "Masa": "1,4ct",
+      "Czystosc": "VS",
+      "Barwa": "Zielona",
+      "Pochodzenie": "Kolumbia",
+      "Własciciel": "Piotr Zieliński"
+    },
+    {
+      "Typ": "Opal",
+      "Masa": "0,9ct",
+      "Czystosc": "S",
+      "Barwa": "Tęczowa",
+      "Pochodzenie": "Australia",
+      "Własciciel": "Karolina Wiśniewska"
+    },
+    {
+      "Typ": "Platyna",
+      "Masa": "2,8g",
+      "Czystosc": "950",
+      "Barwa": "Biała",
+      "Pochodzenie": "Rosja",
+      "Własciciel": "Anna Wójcik"
+    },
+    {
+      "Typ": "Srebro",
+      "Masa": "12g",
+      "Czystosc": "999",
+      "Barwa": "Srebrna",
+      "Pochodzenie": "Peru",
+      "Własciciel": "Maria Nowak"
+    },
+    {
+      "Typ": "Szmaragd",
+      "Masa": "2,1ct",
+      "Czystosc": "IF",
+      "Barwa": "Zielona",
+      "Pochodzenie": "Zambia",
+      "Własciciel": "Agnieszka Wysocka"
+    },
+    {
+      "Typ": "Opal",
+      "Masa": "1,2ct",
+      "Czystosc": "VS",
+      "Barwa": "Niebieska",
+      "Pochodzenie": "Etiopia",
+      "Własciciel": "Tomasz Kwiatkowski"
+    },
+    {
+      "Typ": "Platyna",
+      "Masa": "5,6g",
+      "Czystosc": "950",
+      "Barwa": "Szara",
+      "Pochodzenie": "Kanada",
+      "Własciciel": "Jakub Piotrowski"
+    },
+    {
+      "Typ": "Srebro",
+      "Masa": "8g",
+      "Czystosc": "835",
+      "Barwa": "Szara",
+      "Pochodzenie": "Polska",
+      "Własciciel": "Rafał Lewandowski"
+    },
+    {
+      "Typ": "Szmaragd",
+      "Masa": "3ct",
+      "Czystosc": "VVS",
+      "Barwa": "Zielona",
+      "Pochodzenie": "Afganistan",
+      "Własciciel": "Jan Kowalski"
+    },
+    {
+      "Typ": "Opal",
+      "Masa": "0,75ct",
+      "Czystosc": "SI",
+      "Barwa": "Czerwona",
+      "Pochodzenie": "Meksyk",
+      "Własciciel": "Barbara Nowicka"
+    },
+    {
+      "Typ": "Diament",
+      "Masa": "0,6ct",
+      "Czystosc": "VVS",
+      "Barwa": "Biała",
+      "Pochodzenie": "Australia",
+      "Własciciel": "Michał Nowak"
+    },
+    {
+      "Typ": "Rubin",
+      "Masa": "1,8ct",
+      "Czystosc": "SI",
+      "Barwa": "Czerwona",
+      "Pochodzenie": "Mozambik",
+      "Własciciel": "Firma Jubilerska „Kamień”"
+    },
+    {
+      "Typ": "Złoto",
+      "Masa": "3,4g",
+      "Czystosc": "585",
+      "Barwa": "Złota",
+      "Pochodzenie": "Zambia",
+      "Własciciel": "Lucyna Kowalska"
+    },
+    {
+      "Typ": "Szafir",
+      "Masa": "1,6ct",
+      "Czystosc": "VS",
+      "Barwa": "Fioletowa",
+      "Pochodzenie": "Kenia",
+      "Własciciel": "Emilia Szymczak"
+    },
+    {
+      "Typ": "Diament",
+      "Masa": "1,5ct",
+      "Czystosc": "IF",
+      "Barwa": "Przezroczysta",
+      "Pochodzenie": "Botswana",
+      "Własciciel": "Marcin Lewandowski"
+    },
+    {
+      "Typ": "Rubin",
+      "Masa": "1,1ct",
+      "Czystosc": "S",
+      "Barwa": "Różowa",
+      "Pochodzenie": "Birma",
+      "Własciciel": "Natalia Zielińska"
+    },
+    {
+      "Typ": "Złoto",
+      "Masa": "6g",
+      "Czystosc": "999",
+      "Barwa": "Biała",
+      "Pochodzenie": "Peru",
+      "Własciciel": "Adam Grzyb"
+    },
+    {
+      "Typ": "Szafir",
+      "Masa": "2,2ct",
+      "Czystosc": "IF",
+      "Barwa": "Zielona",
+      "Pochodzenie": "Tanzania",
+      "Własciciel": "Łukasz Walczak"
+    },
+    {
+      "Typ": "Diament",
+      "Masa": "0,9ct",
+      "Czystosc": "SI",
+      "Barwa": "Biała",
+      "Pochodzenie": "RPA",
+      "Własciciel": "Ewa Piotrowska"
+    },
+    {
+      "Typ": "Rubin",
+      "Masa": "1,4ct",
+      "Czystosc": "VVS",
+      "Barwa": "Czerwona",
+      "Pochodzenie": "Chiny",
+      "Własciciel": "Dominik Majewski"
+    },
+    {
+      "Typ": "Złoto",
+      "Masa": "7,5g",
+      "Czystosc": "750",
+      "Barwa": "Złota",
+      "Pochodzenie": "Kolumbia",
+      "Własciciel": "Andrzej Maciejewski"
+    },
+    {
+      "Typ": "Platyna",
+      "Masa": "3g",
+      "Czystosc": "999",
+      "Barwa": "Srebrna",
+      "Pochodzenie": "Kazachstan",
+      "Własciciel": "Igor Petrenko"
+    },
+    {
+      "Typ": "Srebro",
+      "Masa": "5g",
+      "Czystosc": "925",
+      "Barwa": "Srebrna",
+      "Pochodzenie": "Mongolia",
+      "Własciciel": "Magdalena Kowalczyk"
+    },
+    {
+      "Typ": "Szmaragd",
+      "Masa": "1,5ct",
+      "Czystosc": "VS",
+      "Barwa": "Zielona",
+      "Pochodzenie": "Kolumbia",
+      "Własciciel": "Monika Gajewska"
+    },
+    {
+      "Typ": "Opal",
+      "Masa": "2ct",
+      "Czystosc": "IF",
+      "Barwa": "Tęczowa",
+      "Pochodzenie": "Australia",
+      "Własciciel": "Dariusz Sobczak"
+    }
+  ]
