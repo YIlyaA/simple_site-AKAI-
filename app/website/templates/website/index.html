@@ -1,4 +1,5 @@
 {% extends "website/base.html" %}
+{% load table_tags %}
 
 {% block content %}
 <div class="container" class="dropdown mb-1">
@@ -64,7 +65,7 @@
                         {{item.id}}
                     </th>
                     <td>{{item.typ}}</td>
-                    <td>{{ item.masa}}</td>
+                    <td>{{item.masa}}</td>
                     <td>{{item.czystosc}}</td>
                     <td>{{item.barwa}}</td>
                     <td>{{item.pochodzenie}}</td>
@@ -79,4 +80,29 @@
             </tbody>
             </table>
     </div>
+
+{% if items %}
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center my-4">
+        <div class="custom-shadow d-flex">
+            <li class="page-item {% if not page_obj.has_previous %} disabled {% endif %}">
+                <a class="page-link" href=
+                "{% if page_obj.has_previous %}?{% change_params page=page_obj.previous_page_number %}{% else %}#{% endif %}">Previous</a>
+            </li>
+
+            {% for page in page_obj.paginator.page_range %}
+                {% if page <= page_obj.number|add:2 and page >= page_obj.number|add:-2%}
+                <li class="page-item {% if items.number == page%}active{%endif%}"><a class="page-link" href="?{% change_params page=page %}">{{page}}</a></li>
+                {% endif %}
+            {% endfor %}
+
+
+            <li class="page-item {% if not page_obj.has_next %} disabled {% endif %}">
+                <a class="page-link" href=
+                "{% if page_obj.has_next %}?{% change_params page=page_obj.next_page_number %}{% else %}#{% endif %}">Next</a>
+            </li>
+        </div>
+    </ul>
+</nav>
+{% endif %}
 {% endblock content %}

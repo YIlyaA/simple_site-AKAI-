@@ -8,6 +8,7 @@ from django.views.generic import TemplateView, FormView
 from django.shortcuts import get_object_or_404, redirect
 from website.utils import q_search
 from django.db.models.query import QuerySet
+from django.core.paginator import Paginator
 
 
 # Class based view
@@ -16,6 +17,7 @@ class IndexView(TemplateView):
     template_name = "website/index.html"
     context_object_name = "items"
     allow_empty = False
+    paginate_by = 12
 
     def get_queryset(self) -> QuerySet[Any]:
         items = DataCris.objects.all()
@@ -39,7 +41,15 @@ class IndexView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['items'] = self.get_queryset()
+        items = self.get_queryset()
+
+        paginator = Paginator(items, self.paginate_by)
+        page_number = self.request.GET.get('page')
+        page_obj = paginator.get_page(page_number)
+
+        context['items'] = page_obj  # Use the paginated items
+        context['page_obj'] = page_obj
+
         return context
 
 
