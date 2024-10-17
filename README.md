@@ -1,4 +1,5 @@
-# Jewelry Inventory Management System
+# Training Jewelry Inventory Management System
+(simple interface and base functional)
 
 ## Overview
 This web application is designed for managing a jewelry inventory, allowing users to add, edit, delete, and view records of various jewelry items. The application features a user-friendly interface with sorting and filtering capabilities for enhanced user experience.
