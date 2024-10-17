@@ -1,5 +1,3 @@
-# simple_site(AKAI)
-
 # Jewelry Inventory Management System
 
 ## Overview
