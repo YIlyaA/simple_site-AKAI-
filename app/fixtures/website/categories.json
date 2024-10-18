@@ -1,0 +1,97 @@
+[
+    {
+      "Typ": "Diament",
+      "Wartość za uncję (USD)": 8000,
+      "Czystość": "SI"
+    },
+    {
+      "Typ": "Diament",
+      "Wartość za uncję (USD)": 12000,
+      "Czystość": "VVS"
+    },
+    {
+      "Typ": "Diament",
+      "Wartość za uncję (USD)": 15000,
+      "Czystość": "IF"
+    },
+    {
+      "Typ": "Rubin",
+      "Wartość za uncję (USD)": 5000,
+      "Czystość": "S"
+    },
+    {
+      "Typ": "Rubin",
+      "Wartość za uncję (USD)": 8000,
+      "Czystość": "VS"
+    },
+    {
+      "Typ": "Rubin",
+      "Wartość za uncję (USD)": 12000,
+      "Czystość": "IF"
+    },
+    {
+      "Typ": "Złoto",
+      "Wartość za uncję (USD)": 1900,
+      "Czystość": "999"
+    },
+    {
+      "Typ": "Złoto",
+      "Wartość za uncję (USD)": 1800,
+      "Czystość": "950"
+    },
+    {
+      "Typ": "Złoto",
+      "Wartość za uncję (USD)": 1600,
+      "Czystość": "585"
+    },
+    {
+      "Typ": "Srebro",
+      "Wartość za uncję (USD)": 25,
+      "Czystość": "999"
+    },
+    {
+      "Typ": "Srebro",
+      "Wartość za uncję (USD)": 22,
+      "Czystość": "925"
+    },
+    {
+      "Typ": "Szafir",
+      "Wartość za uncję (USD)": 4000,
+      "Czystość": "S"
+    },
+    {
+      "Typ": "Szafir",
+      "Wartość za uncję (USD)": 6000,
+      "Czystość": "VS"
+    },
+    {
+      "Typ": "Szmaragd",
+      "Wartość za uncję (USD)": 7000,
+      "Czystość": "VS"
+    },
+    {
+      "Typ": "Szmaragd",
+      "Wartość za uncję (USD)": 10000,
+      "Czystość": "IF"
+    },
+    {
+      "Typ": "Opal",
+      "Wartość za uncję (USD)": 3000,
+      "Czystość": "S"
+    },
+    {
+      "Typ": "Opal",
+      "Wartość za uncję (USD)": 5000,
+      "Czystość": "VS"
+    },
+    {
+      "Typ": "Platyna",
+      "Wartość za uncję (USD)": 1200,
+      "Czystość": "999"
+    },
+    {
+      "Typ": "Platyna",
+      "Wartość za uncję (USD)": 1100,
+      "Czystość": "950"
+    }
+  ]
