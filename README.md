@@ -4,6 +4,9 @@
 ## Overview
 This web application is designed for managing a jewelry inventory, allowing users to add, edit, delete, and view records of various jewelry items. The application features a user-friendly interface with sorting and filtering capabilities for enhanced user experience.
 
+[Untitled Video October 18, 2024 10_22 AM.webm](https://github.com/user-attachments/assets/a8d96a71-54f9-4199-9f02-508850b8850f)
+
+
 ## Features
 
 1. **Homepage**
@@ -53,17 +56,16 @@ This web application is designed for managing a jewelry inventory, allowing user
    ```
 
 2. ```
-   -----------------------------------------
-   pipinstall pipenv
+   pip install pipenv
    pipenv shell
    pipenv install
-
+   ```
    or
-   
+   ```
    pip install -r requirements.txt
-   -----------------------------------------
-
-   
+   ```
+   Run server
+   ```
    python manage.py migrate
    python manage.py makemigrations
    python manage.py runserver
