@@ -2,14 +2,13 @@ from django.db.models import Q
 from .models import DataCris
 
 
-def q_search(query):
+def q_DataCris(query: str) -> DataCris:
     if query.isdigit() and len(query) <= 5:
         return DataCris.objects.filter(id=int(query))
 
-    ##################### First way to do search
-    keywords = [word for word in query.split() if len(word) > 1]
+    keywords: list[str] = [word for word in query.split() if len(word) > 1]
 
-    q_objects = Q()
+    q_objects: Q = Q()
 
     for token in keywords:
         q_objects |= Q(typ__icontains=token)

@@ -26,7 +26,6 @@
             </label>
         </div>
 
-        {% if request.GET.order_by == 'masa_down' or request.GET.order_by == 'masa_up' %}
             <div class="form-check text-white mx-3">
                 <input class="form-check-input" type="radio" name="order_by" id="flexRadioDefault2" value="by_id" 
                 {% if request.GET.order_by == 'by_id' %}checked{% endif %}>
@@ -34,15 +33,12 @@
                     By Id
                 </label>
             </div>
-        {% endif %}>
 
         <button type="submit" class="btn btn-primary mx-3 mt-3">Akceptuj</button>
     </form>
     <a href="{% url 'website:add_record' %}" class="btn btn-primary">Add record</a>
 </div>
 
-
-    <!-- Kontener do centrowania tabeli --> 
     <div class="container mt-4">
         <table class="table table-dark table-striped mx-auto" style="width: 80%;">
             <thead>
